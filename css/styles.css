@@ -605,3 +605,100 @@ body {
   background-color: var(--active-color);
   border-radius: 2px;
 }
+
+.subscribe-form {
+  display: flex;
+  margin-left: 80px;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.email-request {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+}
+.subscribe-label {
+  color: var(--background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.subscribe-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 8px 24px 8px 24px;
+  margin-top: 40px;
+  width: 165px;
+  height: 40px;
+  background-color: var(--normal-color);
+  color: var(--background-color);
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: var(--active-color);
+}
+
+.email-form {
+  padding: 8px;
+  width: 246px;
+  height: 40px;
+  border: 1px solid var(--background-color);
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: var(--brand-color);
+}
+::-webkit-input-placeholder {
+  color: var(--background-color);
+}
+:-moz-placeholder {
+  color: var(--background-color);
+}
+::-moz-placeholder {
+  color: var(--background-color);
+}
+:-ms-input-placeholder {
+  color: var(--background-color);
+}
+
+.icon-subscribe {
+  fill: var(--background-color);
+}
+.form-title {
+  padding: 72px 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.content-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+}
+
+.data-field {
+  position: relative;
+  margin-bottom: 4px;
+}
+
+.input-field {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+}
+.label-modal {
+  font-weight: 400;
+  font-size: 12px;
+}
