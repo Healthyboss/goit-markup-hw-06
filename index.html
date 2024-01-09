@@ -505,11 +505,19 @@
               class="field-text"
             ></textarea>
           </div>
-          <div class="data-field">
-            <input type="checkbox" required id="terms-conditions" />
-            <label for="terms-conditions"
-              >I accept the terms and conditions of the Privacy Policy</label
-            >
+          <div class="checkbox-field">
+            <input
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+              class="visually-hidden"
+              required
+            />
+            <label class="terms-conditions" for="user-privacy"
+              ><svg class="accept-icon"></svg>
+              I accept the terms and conditions of the Privacy Policy
+            </label>
           </div>
           <button type="submit">Send</button>
         </form>
