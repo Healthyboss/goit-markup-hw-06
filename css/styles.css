@@ -776,3 +776,24 @@ body {
   fill: var(--background-color-second);
   border: none;
 }
+
+.privacy-policy {
+  color: var(--normal-color);
+}
+
+.send-button {
+  display: block;
+  bottom: 24px;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--background-color);
+  cursor: pointer;
+  background-color: var(--normal-color);
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
