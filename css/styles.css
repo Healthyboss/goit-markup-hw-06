@@ -783,7 +783,8 @@ body {
 
 .send-button {
   display: block;
-  bottom: 24px;
+  margin-right: auto;
+  margin-left: auto;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
